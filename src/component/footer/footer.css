@@ -1,0 +1,41 @@
+.footer-bg-img {
+    background-image: url('/public/hessle-lrg.png');
+}
+
+.footer {
+    /* position: fixed; */
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-image: url('/public//Path\ 34.png');
+    display:flex;
+    justify-content: space-around;
+}
+
+.resources {
+    display: grid;
+    text-align: center;
+}
+
+.footer-logo {
+    margin-top: 40px;
+    margin: 5px;
+    text-align: center;
+}
+
+.label {
+    color: aliceblue;
+}
+
+@media only screen and (max-width: 600px) {
+    footer {
+      display: grid !important;
+    }
+  }
+  .btn-sty{
+    display: inline;
+    margin: 20px;
+    border-radius: 56px;
+    width: 160px;
+    height: 40px;
+  }

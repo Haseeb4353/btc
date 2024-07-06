@@ -1,0 +1,177 @@
+.login-form {
+    display: flex;
+    justify-content: center;
+}
+
+.form-outer {
+    border: 2px solid;
+    /* margin: 45px; */
+    padding: 13px;
+    border-radius: 20px;
+    text-align: -webkit-center;
+    border-color: #21429D;
+    width: 75%;
+
+}
+
+.form-rows {
+    display: flex;
+    /* justify-content: space-evenly; */
+    align-items: center;
+    padding: 5px;
+    margin: 10px;
+    width: 87%;
+}
+
+.business-info {
+    color: #21429D;
+    text-align: left;
+    font-size: x-large;
+    margin-left: 80px;
+}
+
+/* .login-form-p {
+    margin-left: 82px;
+    text-align: left;
+} */
+
+.login-page {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.selectBox {
+    position: relative;
+}
+
+#checkboxes {
+    display: grid;
+    text-align: left;
+    border: 1px #707070 solid;
+    width: 310px;
+}
+
+.form-img {
+    
+    border: 1.5px solid #707070;
+    background: white;
+    border-radius: 10px;
+    overflow: hidden;
+    width: 313px;
+    height: 210px;
+
+}
+
+
+
+.form-input {
+    width: 310px;
+    border: 1.5px solid #707070;
+    border-radius: 10px;
+    height: 62px;
+}
+/* .form-rows-pag {
+    display: grid;
+
+} */
+.labal-st{
+   
+    display: grid;
+    justify-content: left;
+    
+}
+.form-input-select{
+    display: flex;
+    height: 68px;
+    width: 310px;
+    border:1.5px solid #707070;
+    border-radius: 10px;
+    font-size: large;
+    color: #707070;
+}
+.label-box-b  {
+    margin-left: 15px;
+    color: #707070;
+}
+/* .form-rows-select{
+    margin-bottom: 60px;
+} */
+.p-st {
+    margin-top: 75px;
+
+}
+.form-input-text {
+    width: 645px;
+    border: 1.5px solid #707070;
+    border-radius: 20px;
+    height: 159px;
+    line-height: 6px;
+    text-align: left;
+    opacity: 1;
+    background-color: #DBDBDB;
+    color: #707070;
+    text-align: left;
+}
+.form-rows-box {
+    display: grid;
+    margin-top: 15px;
+    margin-left: 28px;
+}
+.btn-set {
+    display: inline;
+    color: white;
+    background-color: #21429D;
+    border: 1.5px solid;
+    border-radius: 10px;
+    width: 161px;
+    height: 82px;
+}
+.div-bnt {
+    margin: 70px;
+}
+.label-bt {
+    font-size:xx-large;
+}
+.next-btn{
+    width: 341px;
+    height: 82px;
+    color: white;
+    background-color: #21429D;
+    border: 1.5px solid;
+    border-radius: 10px;
+    font-size: xx-large;
+}
+.img-next {
+    margin-left: 13px;
+}
+.img-back {
+    margin-right: 7px;
+}
+
+input[type='radio'] {
+    width: 30px;
+    height: 25px;
+    border-radius: 50%;
+    outline: none;
+    border: 3px solid black;
+}
+
+input[type='radio']:before {
+    content: '';
+    display: block;
+    width: 100%;
+    height: 100%;
+    margin: 20% auto;
+    border-radius: 50%;
+}
+.box-1{
+    position: relative;
+    z-index: 50px;
+    width: 267px;
+    top: -52px;
+    background: white;
+    /* left: 50%;
+    transform: translateX(-50%); */
+}

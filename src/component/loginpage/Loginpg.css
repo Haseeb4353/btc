@@ -1,0 +1,82 @@
+.login-page {
+    display: flex;
+    justify-content: center;
+}
+.form-outer {
+    border: 2px solid;
+    padding: 13px;
+    border-radius: 20px;
+    text-align: -webkit-center;
+    border-color: #21429D;
+    width: 70%;
+}
+.box-b {    
+    z-index: 50px;
+    width: 230px;
+    background: white;
+}
+.login-page{
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+    margin-bottom: 40px;
+}
+.form-input-typ {
+    width: 600px;
+    height: 103px;
+    border: 1.5px solid #707070;
+    border-radius: 20px;
+    font-size: x-large;
+    color: #707070;
+}
+.label-box {
+    margin-left: 45px;
+    color: #707070;
+}
+.labal-st{
+    display: flex;
+    justify-content: left;
+    display: flex;
+    align-items: center;
+    padding: 5px;
+    margin: 10px;
+    width: 87%;
+    font-size: larger;
+
+}
+.p-labal {
+    margin-left: 250px;
+    font-size: larger;
+    color: #1100AC;
+}
+.div-btn {
+  width: 600px;
+  height: 103px;
+  background-color: #21429D;
+  color: white;
+  border: 1.5px solid #21429D;
+  border-radius: 20px;
+  font-size: xx-large;
+  margin-top: 10px;
+}
+.reg-btn {
+    width: 600px;
+    height: 103px;
+    border: 3px solid #21429D;
+    border-radius: 20px;
+    font-size: xx-large;
+    background-color: white;
+    color:#21429D;
+    margin-bottom: 100px;
+}
+.logo-img-div {
+    display: flex;
+    width: 260px;
+    z-index: 50px;
+    justify-content: center;
+    background-color: white;
+    position: relative;
+    top: -77px;
+}
+
+
