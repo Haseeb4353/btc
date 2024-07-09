@@ -1,18 +1,24 @@
 import React, { useState } from 'react';
 import './Verification.css'
 import Stepper from 'react-stepper-horizontal';
-import { Link } from 'react-router-dom';
+import { useNavigate } from 'react-router-dom';
+
 
 
 export default function Verification({ handleStepsMinus, handleStepsPlus, activeStep }) {
 
+    const navigate = useNavigate();
     const steps = [
         { title: '' },
         { title: '' },
         { title: '' },
     ];
 
-    
+    const handleNavigate = () => {
+        navigate('gallary')
+    }
+
+
 
     return (
         <div className='login-page'>
@@ -35,7 +41,7 @@ export default function Verification({ handleStepsMinus, handleStepsPlus, active
                 <div className='form-rows'>
                     <div className='div-img'>
                         <img className='img-con' src='/sms.png' alt='#' />
-                        <input className='form-input' type="text" placeholder='Phone Number'/>
+                        <input className='form-input' type="text" placeholder='Phone Number' />
                     </div>
                     <input className='form-input-code' type="text" placeholder='Enter Code' />
                 </div>
@@ -48,7 +54,7 @@ export default function Verification({ handleStepsMinus, handleStepsPlus, active
                         <label className=''>Back</label>
                     </button>
 
-                    <button onClick={() => } className='regis-btn'>
+                    <button onClick={() => handleNavigate()} className='regis-btn'>
                         Register
                     </button>
                 </div>
