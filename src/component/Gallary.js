@@ -4,13 +4,7 @@ function Gallary() {
     return (
         <div>
             <div className='Nav'>
-                <ul>
-                    <li><a href='gevhdg'>Home</a></li>
-                    <li><a href='scvjh'>Contact</a></li>
-                    <li><a href='agscjh'>Name</a></li>
-                    <li><a href='jygsc'>Class</a></li>
-                    <li><a href="cwht">phone</a></li>
-                </ul>
+                
             </div>
             <div className='logo'>
                 <img src='/pexels-photo-220429.webp' alt='type' height='100%' width='100%'></img>
