@@ -58,7 +58,7 @@ export default function Verification({ handleStepsMinus, handleStepsPlus, active
                         Register
                     </button>
                 </div>
-
+               <div>hello</div>
             </div>
         </div>
     )

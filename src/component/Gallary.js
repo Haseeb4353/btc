@@ -4,7 +4,7 @@ function Gallary() {
     return (
         <div>
             <div className='Nav'>
-                
+        
             </div>
             <div className='logo'>
                 <img src='/pexels-photo-220429.webp' alt='type' height='100%' width='100%'></img>
