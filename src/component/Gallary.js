@@ -9,6 +9,7 @@ function Gallary() {
                     <li><a href='scvjh'>Contact</a></li>
                     <li><a href='agscjh'>Name</a></li>
                     <li><a href='jygsc'>Class</a></li>
+                    <li><a href="cwht">phone</a></li>
                 </ul>
             </div>
             <div className='logo'>
